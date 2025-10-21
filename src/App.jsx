@@ -82,7 +82,7 @@ export default function App() {
           />
           <button
             onClick={handleAdd}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-all"
+            className="bg-blue-600 hover:bg-blue-700 text-dark font-semibold px-6 py-3 rounded-xl transition-all"
           >
             Tambah
           </button>
