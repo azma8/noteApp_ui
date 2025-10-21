@@ -8,4 +8,15 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    host: true, // biar bisa diakses dari luar container
+    port: 4173,
+  },
+  preview: {
+    port: 4173,
+    host: true,
+    allowedHosts: [
+      'note-ui-note-app.apps.dev.mibocp.co.id' // <--- tambahin ini
+    ]
+  }
 })
