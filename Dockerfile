@@ -1,5 +1,6 @@
 FROM node:22
 
+USER root
 WORKDIR /app
 
 COPY . .
