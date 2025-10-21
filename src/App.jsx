@@ -156,7 +156,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-gray-800/90 backdrop-blur-md text-gray-400 text-center py-4 text-sm">
-        ✨ Catatanmu tersimpan dengan aman di database
+        ✨ Tulislah catatanmu
       </footer>
     </div>
   );
